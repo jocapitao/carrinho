@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background: #F9E332;
+}
+
+header {
+    max-width: 100%;
+    background: rgb(249, 227, 50);
+    background: linear-gradient(0deg, rgba(249, 227, 50, 1) 0%, rgba(247, 219, 8, 1) 100%);
+}
+
+.wraper {
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header button {
+    color: black;
+    padding: 5px 10px;
+    font-size: 15px;
+    float: right;
+    background: #008ae6;
+    border: 1px solid #006bb3;
+    color: white;
+    border-radius: 2px;
+}
+
+header button:focus {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px 0 #ccc;
+    width: 100vw;
+    height: 100vh;
+    margin: auto auto auto auto;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-header {
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+}
+
+.container-header .logo {
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container-header img {
+    float: left;
+    max-width: 100px;
+}
+
+.container-body {
+    width: 100%;
+}
+
+.contato {
+    padding: 0 2% 20px 2%;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+
+.contato .input-wraper {
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.contato .input-wraper p {
+    margin-left: -10px;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+}
+
+.contato input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.contato select {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.contato select:focus {
+    outline: none;
+    border-bottom: 2px solid #0099ff;
+}
+
+.contato input[type=date]:focus {
+    outline: none;
+    border: 2px solid #0099ff;
+}
+
+.contato input[type=text]:focus {
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #0099ff;
+}
+
+.contato form .input-wraper:nth-of-type(8) {
+    text-align: center;
+}
+
+.contato input[type=submit] {
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    background: #008ae6;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+#hidden_div {
+    display: none;
+}
